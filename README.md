@@ -176,7 +176,7 @@ Based on the analysis, the following recommendations can improve internship succ
 > Replace `Dashboard.png` with your uploaded dashboard image filename if it is different.
 
 ```markdown
-![Internship Program Analysis Dashboard](Dashboard.png)
+![Internship Program Analysis Dashboard](Dashboard.PNG)
 
 ---
 
