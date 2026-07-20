@@ -1,11 +1,11 @@
-# 📊 Internship Program Analysis Dashboard
+# Internship Program Analysis Dashboard
 
 **Created & Analyzed by Hafsa Asif**  
 *Aspiring Data Analyst*
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 The **Internship Program Analysis Dashboard** is an interactive Power BI project developed to analyze internship performance and identify the key factors that contribute to successful internship completion.
 
@@ -13,7 +13,7 @@ The dashboard transforms raw internship data into meaningful insights by analyzi
 
 ---
 
-# 🎯 Project Objective
+# Project Objective
 
 The primary objective of this project is to analyze internship completion rates and identify the factors influencing intern success.
 
@@ -26,7 +26,7 @@ This dashboard was developed to:
 
 ---
 
-# 📂 Dataset Overview
+# Dataset Overview
 
 A realistic internship dataset containing **300 records** was created for this project.
 
@@ -52,7 +52,7 @@ The dataset includes the following fields:
 
 ---
 
-# 🛠 Tools & Technologies
+# Tools & Technologies
 
 - Microsoft Power BI
 - Microsoft Excel
@@ -62,22 +62,22 @@ The dataset includes the following fields:
 
 ---
 
-# 📊 Dashboard Overview
+# Dashboard Overview
 
 The dashboard provides a comprehensive overview of internship performance through interactive visualizations and KPI cards.
 
-## 📌 Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-- 👥 Total Enrollments
-- ✅ Completed Interns
-- ❌ Dropped Interns
-- ⏳ Ongoing Interns
-- 📈 Completion Rate
-- 📉 Dropout Rate
+- Total Enrollments
+- Completed Interns
+- Dropped Interns
+- Ongoing Interns
+- Completion Rate
+- Dropout Rate
 
 ---
 
-# 📈 Dashboard Visualizations
+# Dashboard Visualizations
 
 ## 1. Completed Interns by Department
 
@@ -129,7 +129,7 @@ This visualization highlights the relationship between attendance and internship
 
 ---
 
-# 🎛 Interactive Features
+# Interactive Features
 
 The dashboard includes interactive slicers for:
 
@@ -144,7 +144,7 @@ Users can dynamically filter the dashboard to explore internship performance fro
 
 ---
 
-# 📌 Key Insights
+# Key Insights
 
 Based on the dashboard analysis:
 
@@ -159,7 +159,7 @@ Based on the dashboard analysis:
 
 ---
 
-# 💡 Business Recommendations
+# Business Recommendations
 
 Based on the analysis, the following recommendations can improve internship success:
 
@@ -171,23 +171,16 @@ Based on the analysis, the following recommendations can improve internship succ
 
 ---
 
-# 📷 Dashboard Preview
+# Dashboard Preview
 
 > Replace `Dashboard.png` with your uploaded dashboard image filename if it is different.
 
 ```markdown
 ![Internship Program Analysis Dashboard](Dashboard.png)
-```
-
-or
-
-```markdown
-<img src="Dashboard.png" width="100%">
-```
 
 ---
 
-# 📁 Repository Structure
+# Repository Structure
 
 ```text
 Internship-Program-Analysis
@@ -202,7 +195,7 @@ Internship-Program-Analysis
 
 ---
 
-# 📚 Project Learnings
+# Project Learnings
 
 This project strengthened my understanding of:
 
@@ -218,7 +211,7 @@ It also enhanced my ability to transform raw data into actionable insights that 
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 Potential enhancements for future versions include:
 
@@ -235,7 +228,7 @@ Potential enhancements for future versions include:
 ## Hafsa Asif
 
 **BS Computer Science Student**  
-**Aspiring Data Analyst**
+**Data Analyst**
 
 ### Skills
 
