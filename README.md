@@ -1,7 +1,7 @@
 # Internship Program Analysis Dashboard
 
 **Created & Analyzed by Hafsa Asif**  
-*Aspiring Data Analyst*
+*Data Analyst*
 
 ---
 
