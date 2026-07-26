@@ -175,7 +175,7 @@ Based on the analysis, the following recommendations can improve internship succ
 
 ---
 
-# Dashboard Preview
+# Dashboard 
 
 
 ![Internship Program Analysis Dashboard](Dashboard.png)
