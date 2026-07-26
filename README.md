@@ -1,7 +1,7 @@
 # Internship Program Analysis Dashboard
 
 **Created & Analyzed by Hafsa Asif**  
-*Data Analyst*
+*Data Analyst | Power BI Developer*
 
 ---
 
@@ -9,46 +9,47 @@
 
 The **Internship Program Analysis Dashboard** is an interactive Power BI project developed to analyze internship performance and identify the key factors that contribute to successful internship completion.
 
-The dashboard transforms raw internship data into meaningful insights by analyzing enrollment trends, completion rates, dropout rates, mentor interactions, attendance, internship duration, and departmental performance. The project enables stakeholders to monitor internship outcomes and make informed decisions to improve future internship programs.
+The dashboard transforms raw internship data into meaningful insights by analyzing enrollment trends, completion rates, dropout rates, mentor interactions, attendance, internship duration, departmental performance, and university contributions. Through interactive visualizations and KPI cards, stakeholders can monitor internship outcomes and make informed decisions to improve future internship programs.
 
 ---
 
 # Project Objective
 
-The primary objective of this project is to analyze internship completion rates and identify the factors influencing intern success.
+The primary objective of this project is to analyze internship performance and identify the factors influencing intern success.
 
 This dashboard was developed to:
 
 - Analyze internship enrollment, completion, and dropout statistics.
 - Identify trends across departments, internship duration, universities, and mentor interactions.
-- Measure internship performance using interactive Power BI visualizations.
-- Help stakeholders understand the factors associated with successful internship completion.
+- Evaluate intern performance using interactive Power BI visualizations.
+- Monitor attendance and project performance.
+- Support data-driven decision-making for improving internship programs.
 
 ---
 
 # Dataset Overview
 
-A realistic internship dataset containing **300 records** was created for this project.
+The project uses an internship dataset containing information about interns, their academic background, internship details, mentor engagement, attendance, and project performance.
 
-The dataset includes the following fields:
+### Dataset Fields
 
-| Column | Data Type | Description |
-|--------|-----------|-------------|
-| Intern_ID | Integer | Unique identifier for each intern |
-| Intern_Name | Text | Name of the intern |
-| Gender | Text | Gender of the intern |
-| Age | Integer | Age of the intern |
-| University | Text | University of the intern |
-| CGPA | Decimal | Academic CGPA |
-| Department | Text | Internship department |
-| Enrollment_Date | Date | Internship enrollment date |
-| Internship_Duration_Months | Integer | Internship duration in months |
-| Mentor_Name | Text | Assigned mentor |
-| Mentor_Interactions | Integer | Number of mentor meetings/interactions |
-| Attendance_% | Percentage | Internship attendance |
-| Project_Score | Percentage | Final project evaluation score |
-| Completion_Status | Text | Completed, Dropped, or Ongoing |
-| Dropout_Reason | Text | Reason for dropping out (if applicable) |
+| Column | Description |
+|--------|-------------|
+| Intern ID | Unique identifier for each intern |
+| Intern Name | Name of the intern |
+| Gender | Gender of the intern |
+| Age | Age of the intern |
+| University | University name |
+| Department | Internship department |
+| CGPA | Academic performance (CGPA) |
+| Enrollment Date | Internship enrollment date |
+| Internship Duration | Duration of internship (Months) |
+| Mentor Name | Assigned mentor |
+| Mentor Interactions | Number of mentor meetings |
+| Attendance (%) | Attendance percentage |
+| Project Score | Final project evaluation score |
+| Completion Status | Completed, Ongoing, or Dropped |
+| Dropout Reason | Reason for dropout (if applicable) |
 
 ---
 
@@ -56,24 +57,28 @@ The dataset includes the following fields:
 
 - Microsoft Power BI
 - Microsoft Excel
+- Power Query
+- DAX (Data Analysis Expressions)
 - Data Modeling
-- DAX Measures
 - Data Visualization
+- Business Intelligence
 
 ---
 
 # Dashboard Overview
 
-The dashboard provides a comprehensive overview of internship performance through interactive visualizations and KPI cards.
+The dashboard provides a comprehensive overview of internship performance through interactive KPI cards, charts, and slicers.
 
 ## Key Performance Indicators (KPIs)
 
-- Total Enrollments
-- Completed Interns
-- Dropped Interns
-- Ongoing Interns
-- Completion Rate
-- Dropout Rate
+| KPI | Value |
+|------|--------|
+| Total Enrollments | **15,000** |
+| Completed Interns | **10,000** |
+| Dropped Interns | **3,082** |
+| Ongoing Interns | **1,525** |
+| Completion Rate | **69.29%** |
+| Dropout Rate | **20.55%** |
 
 ---
 
@@ -81,31 +86,31 @@ The dashboard provides a comprehensive overview of internship performance throug
 
 ## 1. Completed Interns by Department
 
-Displays the number of interns who successfully completed the internship across different departments, allowing comparison of departmental performance.
+Displays the number of interns who successfully completed internships across different departments, enabling comparison of departmental performance.
 
 ---
 
 ## 2. Internship Status Distribution
 
-A pie chart showing the distribution of interns based on their current status:
+A pie chart showing the distribution of internship status:
 
 - Completed
 - Dropped
 - Ongoing
 
-This visualization provides a quick overview of overall internship outcomes.
+This provides a quick overview of internship outcomes.
 
 ---
 
 ## 3. Completion by Internship Duration
 
-Shows how internship duration impacts successful completion by comparing completed interns across different internship lengths.
+Shows how internship duration impacts successful completion by comparing interns across different internship lengths.
 
 ---
 
 ## 4. Completed Interns by University
 
-Compares internship completion among different universities to identify institutions contributing the highest number of successful interns.
+Compares internship completion across universities to identify institutions contributing the highest number of successful interns.
 
 ---
 
@@ -113,7 +118,7 @@ Compares internship completion among different universities to identify institut
 
 A scatter plot illustrating the relationship between mentor interactions and project performance.
 
-This visualization helps identify whether increased mentor engagement contributes to better project outcomes.
+This visualization helps determine whether increased mentor engagement contributes to better project outcomes.
 
 ---
 
@@ -122,10 +127,10 @@ This visualization helps identify whether increased mentor engagement contribute
 Compares average attendance among:
 
 - Completed Interns
-- Dropped Interns
 - Ongoing Interns
+- Dropped Interns
 
-This visualization highlights the relationship between attendance and internship success.
+This highlights the relationship between attendance and internship success.
 
 ---
 
@@ -140,7 +145,7 @@ The dashboard includes interactive slicers for:
 - Completion Status
 - Mentor Name
 
-Users can dynamically filter the dashboard to explore internship performance from different perspectives.
+Users can dynamically filter the dashboard to analyze internship performance from different perspectives.
 
 ---
 
@@ -148,13 +153,14 @@ Users can dynamically filter the dashboard to explore internship performance fro
 
 Based on the dashboard analysis:
 
-- **300** interns enrolled in the internship program.
-- **213 interns (71%)** successfully completed the internship.
-- **60 interns (20%)** dropped out.
-- **27 interns (9%)** are currently ongoing.
-- Cyber Security recorded the highest number of completed interns.
-- Interns with higher mentor interactions generally achieved higher project scores.
-- Completed interns maintained significantly higher attendance than dropped interns.
+- **15,000** internship enrollments were analyzed.
+- **10,000 interns (69.29%)** successfully completed the internship program.
+- **3,082 interns (20.55%)** dropped out before completion.
+- **1,525 interns** are currently participating in ongoing internships.
+- Department-wise analysis highlights variations in internship completion across different domains.
+- Universities such as **ITU Lahore**, **COMSATS**, and **UCP** contributed significantly to internship completions.
+- Higher mentor interaction generally resulted in better project performance.
+- Completed interns maintained higher attendance than dropped interns.
 - Internship duration showed a noticeable impact on completion trends.
 
 ---
@@ -164,27 +170,33 @@ Based on the dashboard analysis:
 Based on the analysis, the following recommendations can improve internship success:
 
 - Increase mentor engagement through regular mentoring sessions.
-- Monitor intern attendance to identify at-risk participants early.
-- Review departments with lower completion rates and implement targeted support strategies.
-- Provide additional guidance to interns during longer internship durations.
-- Analyze dropout reasons to improve intern retention and program effectiveness.
+- Monitor attendance to identify at-risk interns early.
+- Strengthen support for departments with lower completion rates.
+- Review internship duration policies to maximize completion rates.
+- Analyze dropout reasons to improve intern retention.
+- Utilize dashboard insights for future internship planning and resource allocation.
 
 ---
 
 # Dashboard Preview
 
-![Internship Program Analysis Dashboard](Dashboard.png)
+> Place your dashboard screenshot in the repository as **dashboard.png**
+
+```markdown
+![Internship Program Analysis Dashboard](dashboard.png)
+```
 
 ---
 
 # Repository Structure
 
 ```text
-Internship-Program-Analysis
+Internship-Program-Analysis-Dashboard
 │
-├── Internship_Program_Analysis.pbix
-├── Internship_Data.xlsx
-├── Dashboard.png
+├── Internship Program Analysis.pbix
+├── Internship_Completion_Dataset.xlsx
+├── dashboard.png
+├── Internship Program Analysis.pdf
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -197,14 +209,16 @@ Internship-Program-Analysis
 This project strengthened my understanding of:
 
 - Power BI Dashboard Development
-- Data Cleaning & Preparation
+- Data Cleaning using Power Query
+- Data Modeling
 - DAX Measures & KPI Calculations
 - Interactive Dashboard Design
-- Data Storytelling
+- Business Intelligence Reporting
+- Data Visualization
 - Business Insight Generation
-- Visual Analytics
+- Data Storytelling
 
-It also enhanced my ability to transform raw data into actionable insights that support business decision-making.
+This project enhanced my ability to transform raw data into actionable insights that support business decision-making.
 
 ---
 
@@ -212,11 +226,13 @@ It also enhanced my ability to transform raw data into actionable insights that 
 
 Potential enhancements for future versions include:
 
-- Multi-page dashboard with detailed analysis
-- Time-based enrollment trend analysis
+- Multi-page dashboard with advanced analytics
+- Time-series enrollment trend analysis
 - Predictive modeling for internship completion
 - Drill-through pages for detailed intern information
-- Automated data refresh using Power BI Service
+- Real-time dashboard using Power BI Service
+- SQL database integration
+- AI-powered insights and forecasting
 
 ---
 
@@ -225,7 +241,7 @@ Potential enhancements for future versions include:
 ## Hafsa Asif
 
 **BS Computer Science Student**  
-**Data Analyst**
+**Data Analyst | Power BI Developer**
 
 ### Skills
 
@@ -233,9 +249,12 @@ Potential enhancements for future versions include:
 - SQL
 - Python
 - Microsoft Excel
+- Power Query
+- DAX
 - Data Visualization
 - Data Analysis
+- Business Intelligence
 
 ---
 
-⭐ **If you found this project helpful, please consider giving it a star!**
+⭐ **If you found this project helpful, please consider giving it a Star!**
