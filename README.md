@@ -31,26 +31,23 @@ This dashboard was developed to:
 
 The project uses an internship dataset containing information about interns, their academic background, internship details, mentor engagement, attendance, and project performance.
 
-### Dataset Fields
-
-| Column | Description |
-|--------|-------------|
-| Intern ID | Unique identifier for each intern |
-| Intern Name | Name of the intern |
-| Gender | Gender of the intern |
-| Age | Age of the intern |
-| University | University name |
-| Department | Internship department |
-| CGPA | Academic performance (CGPA) |
-| Enrollment Date | Internship enrollment date |
-| Internship Duration | Duration of internship (Months) |
-| Mentor Name | Assigned mentor |
-| Mentor Interactions | Number of mentor meetings |
-| Attendance (%) | Attendance percentage |
-| Project Score | Final project evaluation score |
-| Completion Status | Completed, Ongoing, or Dropped |
-| Dropout Reason | Reason for dropout (if applicable) |
-
+| Column | Data Type | Description |
+|--------|-----------|-------------|
+| Intern_ID | Integer | Unique identifier for each intern |
+| Intern_Name | Text | Name of the intern |
+| Gender | Text | Gender of the intern |
+| Age | Integer | Age of the intern |
+| University | Text | University of the intern |
+| CGPA | Decimal | Academic CGPA |
+| Department | Text | Internship department |
+| Enrollment_Date | Date | Internship enrollment date |
+| Internship_Duration_Months | Integer | Internship duration in months |
+| Mentor_Name | Text | Assigned mentor |
+| Mentor_Interactions | Integer | Number of mentor meetings/interactions |
+| Attendance_% | Percentage | Internship attendance |
+| Project_Score | Percentage | Final project evaluation score |
+| Completion_Status | Text | Completed, Dropped, or Ongoing |
+| Dropout_Reason | Text | Reason for dropping out (if applicable) |
 ---
 
 # Tools & Technologies
