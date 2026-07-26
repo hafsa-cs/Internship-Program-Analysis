@@ -177,8 +177,6 @@ Based on the analysis, the following recommendations can improve internship succ
 
 # Dashboard Preview
 
-> Place your dashboard screenshot in the repository as **Dashboard.png**
-
 
 ![Internship Program Analysis Dashboard](Dashboard.png)
 
