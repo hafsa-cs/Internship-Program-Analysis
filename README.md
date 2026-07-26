@@ -179,9 +179,9 @@ Based on the analysis, the following recommendations can improve internship succ
 
 > Place your dashboard screenshot in the repository as **Dashboard.png**
 
-```markdown
+
 ![Internship Program Analysis Dashboard](Dashboard.png)
-```
+
 
 ---
 
